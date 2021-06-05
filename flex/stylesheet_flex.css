@@ -55,12 +55,14 @@ body {
 .header-content {
   margin: 0 auto;
   max-width: 1225px;
-  width: 100%; }
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+ }
 
 .header-logo {
   width: 161.67px;
   height: 20px;
-  margin-top: 20px;
   margin-bottom: 20px;
   color: white; }
 
@@ -286,14 +288,18 @@ input:focus .svg {
   .form-box {
     margin-top: 10px; }
   .cards-container{
-    
+    flex-wrap: wrap;
+  }
+  .form-container{
+    padding-right: 20px;
   }
   .cards-grid1 {
     flex: 100%;
     padding-top: 0px; }
   .cards-grid2 {
     flex: 100%;
-    padding-top: 0px; }
+    padding-top: 0px;
+   padding-right: 20px }
   .flex-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -305,7 +311,8 @@ input:focus .svg {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         flex-wrap: wrap;
-        padding-left: 20px; } }
+        padding-left: 20px;
+        padding-right: 20px; } }
 
 footer {
   margin-top: 30px;

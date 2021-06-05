@@ -57,13 +57,12 @@ body {
   max-width: 1225px;
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
  }
 
 .header-logo {
   width: 161.67px;
   height: 20px;
-  margin-bottom: 20px;
   color: white; }
 
 main {

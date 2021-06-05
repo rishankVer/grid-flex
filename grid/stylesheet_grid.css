@@ -56,6 +56,7 @@ body {
   margin: 0 auto;
   max-width: 1225px;
   width: 100%;
+  padding-left: 20px;
   padding-top: 20px;
   padding-bottom:2px }
 
@@ -321,11 +322,12 @@ input:focus .svg {
 footer {
   margin-top: 30px;
   height: 100px;
-  background: #FFFDFD; }
+  background: #FFFDFD;
+  padding-left: 20px; }
 
 .footer-block {
   margin: 0 auto;
-  max-width: 1250px;
+  max-width: 1225px;
   width: 100%; }
 
 .left-part {
